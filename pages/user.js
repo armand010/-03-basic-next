@@ -6,9 +6,10 @@ const User = ({users}) => {
             <h1>User</h1>
             {users.map((user)=>(
                 <div key={user.id}>
-                    <h2>{user.name}</h2>
-                    <p>{user.username}</p>
-                    <p>{user.email}</p>
+                    <h2>ID: {user.id}</h2>
+                    <p>Name: {user.name}</p>
+                    <p>Username: {user.username}</p>
+                    <p>Email: {user.email}</p>
                 </div>
             ))}
         </div>
